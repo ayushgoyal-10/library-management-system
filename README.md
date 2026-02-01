@@ -1,8 +1,8 @@
-# Library Management System 📚
+# Library Management System
 
 A complete Library Management System built with Java, JDBC, and MySQL implementing professional software architecture patterns.
 
-## 🚀 Features
+## Features
 
 - **Book Management** - Add, search, update, and manage books
 - **Member Management** - Register and manage library members
@@ -10,7 +10,7 @@ A complete Library Management System built with Java, JDBC, and MySQL implementi
 - **Fine Calculation** - Automatic fine calculation for overdue books
 - **Search & Reports** - Search books and view borrowing history
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Java** - Core application logic
 - **JDBC** - Database connectivity and operations
@@ -18,7 +18,7 @@ A complete Library Management System built with Java, JDBC, and MySQL implementi
 - **DAO Pattern** - Data Access Object design pattern
 - **Layered Architecture** - Separation of concerns
 
-## 🏗️ Project Architecture
+## Project Architecture
 LibraryApp (Main Class)
 ↓
 LibraryService (Business Logic Layer)
@@ -28,13 +28,13 @@ BookDAO MemberDAO BorrowingDAO (Data Access Layer)
 MySQL Database
 
 
-## 📊 Database Schema
+## Database Schema
 
 - **books** - Stores book information and availability
 - **members** - Stores member details and status
 - **borrowings** - Tracks book borrowing/returning with fines
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Import the project in IDE
 2. Set up MySQL database
